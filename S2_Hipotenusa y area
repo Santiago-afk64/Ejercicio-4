@@ -1,0 +1,15 @@
+Algoritmo Area y Hipotenusa_Triangulo()
+//Declaraciones
+    Definir a, b, hipotenusa, area Como Real
+    Escribir "Cateto 1:"
+    Leer a
+    Escribir "Cateto 2:"
+    Leer b
+
+//Cuerpo
+    hipotenusa <- RAIZ(a^2 + b^2)
+    area <- (a * b) / 2
+
+    Escribir "Hipotenusa: ", hipotenusa
+    Escribir "Área: ", area
+FinAlgoritmo
