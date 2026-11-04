@@ -1,0 +1,18 @@
+Algoritmo Prestamo_InteresSimple()
+//Declaracione
+    Definir capital, tasa, interes, cuota Como Real
+    Definir meses Como Entero
+    Escribir "Capital:"
+    Leer capital
+    Escribir "Tasa anual (decimal):"
+    Leer tasa
+    Escribir "Plazo en meses:"
+    Leer meses
+
+//Cuerpo
+    interes <- capital * tasa * (meses / 12)
+    cuota <- (capital + interes) / meses
+
+    Escribir "Interés total: ", interes
+    Escribir "Cuota mensual: ", cuota
+FinAlgoritmo
