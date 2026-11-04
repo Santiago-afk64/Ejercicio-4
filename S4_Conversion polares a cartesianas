@@ -1,0 +1,16 @@
+Algoritmo Polares_Cartesianas()
+//Declaraciones
+    Definir r, grados, radianes, x, y Como Real
+    Escribir "Radio:"
+    Leer r
+    Escribir "Ángulo en grados:"
+    Leer grados
+
+//Cuerpo
+    radianes <- grados * PI / 180
+    x <- r * COS(radianes)
+    y <- r * SEN(radianes)
+
+    Escribir "x = ", x
+    Escribir "y = ", y
+FinAlgoritmo
