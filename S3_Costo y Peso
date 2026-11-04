@@ -1,0 +1,22 @@
+Algoritmo CostoEnvio()
+//Declaraciones
+    Definir pesoReal, largo, ancho, alto, pesoVol, pesoCobrar, costo Como Real
+    Escribir "Peso real (kg):"
+    Leer pesoReal
+    Escribir "Largo, ancho y alto (cm):"
+    Leer largo, ancho, alto
+
+//Cuerpo
+    pesoVol <- (largo * ancho * alto) / 5000.
+
+    Si pesoReal > pesoVol Entonces
+        pesoCobrar <- pesoReal
+    SiNo
+        pesoCobrar <- pesoVol
+    FinSi
+
+    costo <- pesoCobrar * 2.5
+
+    Escribir "Peso a cobrar: ", pesoCobrar, " kg"
+    Escribir "Costo total: $", costo
+FinAlgoritmo
