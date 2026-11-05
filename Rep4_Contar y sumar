@@ -2,7 +2,7 @@ Algoritmo Contar y Sumar()
 //Declaraciones
   Definir n, i, contador, suma Como Entero
 
-  // Cuerpo
+ // Cuerpo
   Escribir "Ingrese el valor de N:"
   Leer n
 
