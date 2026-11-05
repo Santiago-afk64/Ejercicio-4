@@ -1,0 +1,27 @@
+Algoritmo Armstrong()
+//Declaraciones
+  Definir numero, copia, digito, suma Como Entero
+
+// Cuerpo
+  Escribir "Ingrese un número de tres dígitos:"
+  Leer numero
+
+  Si numero >= 100 Y numero <= 999 Entonces
+    copia <- numero
+    suma <- 0
+
+    Mientras copia > 0 Hacer
+      digito <- copia MOD 10
+      suma <- suma + digito ^ 3
+      copia <- trunc(copia / 10)
+    FinMientras
+
+    Si suma = numero Entonces
+      Escribir numero, " es un número de Armstrong"
+    SiNo
+      Escribir numero, " no es un número de Armstrong"
+    FinSi
+  SiNo
+    Escribir "El número debe tener exactamente tres dígitos"
+  FinSi
+FinAlgoritmo
