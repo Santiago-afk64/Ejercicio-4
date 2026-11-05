@@ -1,23 +1,23 @@
-Algoritmo Clasficación()
+Algoritmo Clasficacion()
 //Declaraciones
   Definir promedio, p_asistencia como real
 
 //Cuerpo
   Escribir "Ingrese promedio del estudiante (0-10)"
   Leer promedio
-  Escribir "Ingrese el procentaje de asitencia"
+  Escribir "Ingrese el porcentaje de asistencia (0 a 100)"
   Leer p_asistencia
 
-  Si promedio => 9 y p_asistencia => 0.90 entonces
+  Si promedio >= 9 y p_asistencia >= 90 entonces
     Escribir "Estudiante con rendimiento Excelente"
   SiNo
-    Si promedio >= 7 y p_asistencia >= 0.80 entonces
+    Si promedio >= 7 y p_asistencia >= 80 entonces
       Escribir "Estudiante con rendimiento Bueno"
     SiNo
-      Si promedio >= 6 y p_porcentaje >= 0.70 entonces
+      Si promedio >= 6 y p_asistencia >= 70 entonces
         Escribir "Estudiante con rendimiento Regular"
       SiNo 
-        Escribir "Estudiante con rendimietno Deficiente"
+        Escribir "Estudiante con rendimiento Deficiente"
       FinSi
     FinSi
   FinSi
