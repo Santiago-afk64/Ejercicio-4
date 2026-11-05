@@ -3,7 +3,7 @@ Algoritmo Suma en serie ()
   Definir n, i Como Entero
   Definir suma Como Real
 
-  // Cuerpo
+// Cuerpo
   Escribir "Ingrese el valor de N:"
   Leer n
 
