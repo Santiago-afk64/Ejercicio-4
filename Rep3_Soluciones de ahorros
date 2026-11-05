@@ -3,7 +3,7 @@ Algoritmos Solucion de ahorros()
   Definir n, mes Como Entero
   Definir aporte, saldo Como Real
 
-  // Cuerpo
+// Cuerpo
   Escribir "Ingrese el número de meses:"
   Leer n
 
