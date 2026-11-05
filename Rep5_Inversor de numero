@@ -1,0 +1,23 @@
+Algoritmo Inversor()
+//Declaraciones 
+  Definir n, copia, digito, invertido como entero
+
+//Cuerpo
+  Escribir "Ingrese un número entero positivo:"
+  Leer numero
+
+  Si numero > 0 Entonces
+    copia <- numero
+    invertido <- 0
+
+    Mientras copia > 0 Hacer
+      digito <- copia MOD 10
+      invertido <- invertido * 10 + digito
+      copia <- trunc(copia / 10)
+    FinMientras
+
+    Escribir "Número invertido: ", invertido
+  SiNo
+    Escribir "Debe ingresar un número entero positivo"
+  FinSi
+FinAlgoritmo
