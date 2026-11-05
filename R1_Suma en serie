@@ -1,0 +1,16 @@
+Algoritmo Suma en serie ()
+//Declaraciones
+  Definir n, i Como Entero
+  Definir suma Como Real
+
+  // Cuerpo
+  Escribir "Ingrese el valor de N:"
+  Leer n
+
+  suma <- 0
+  Para i <- 1 Hasta n Con Paso 1 Hacer
+    suma <- suma + 1 / i
+  FinPara
+
+  Escribir "La suma de la serie hasta N = ", n, " es: ", suma
+FinAlgoritmo
