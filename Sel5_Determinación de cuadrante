@@ -1,0 +1,36 @@
+Algoritmo Determinacon de cuadrante()
+//Declaraciones
+  Definir x, y Como Real
+
+// Cuerpo
+  Escribir "Ingrese la coordenada x:"
+  Leer x
+  Escribir "Ingrese la coordenada y:"
+  Leer y
+
+  Si x = 0 Y y = 0 Entonces
+    Escribir "El punto está en el origen"
+  SiNo
+    Si x = 0 Entonces
+      Escribir "El punto está sobre el eje Y"
+    SiNo
+      Si y = 0 Entonces
+        Escribir "El punto está sobre el eje X"
+      SiNo
+        Si x > 0 Y y > 0 Entonces
+          Escribir "Primer cuadrante"
+        SiNo
+          Si x < 0 Y y > 0 Entonces
+            Escribir "Segundo cuadrante"
+          SiNo
+            Si x < 0 Y y < 0 Entonces
+              Escribir "Tercer cuadrante"
+            SiNo
+              Escribir "Cuarto cuadrante"
+            FinSi
+          FinSi
+        FinSi
+      FinSi
+    FinSi
+  FinSi
+FinAlgoritmo
