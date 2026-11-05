@@ -1,0 +1,28 @@
+Algotimo Tipo_ecuacion cuadratica()
+//Declaraciones
+  Definir a, b, c, discriminante Como Real
+
+// Cuerpo
+  Escribir "Ingrese el coeficiente a:"
+  Leer a
+  Escribir "Ingrese el coeficiente b:"
+  Leer b
+  Escribir "Ingrese el coeficiente c:"
+  Leer c
+
+  Si a = 0 Entonces
+    Escribir "No es una ecuación cuadrática (a no puede ser 0)"
+  SiNo
+    discriminante <- (b * b) - 4 * a * c
+
+    Si discriminante > 0 Entonces
+      Escribir "Tiene dos soluciones reales distintas"
+    SiNo
+      Si discriminante = 0 Entonces
+        Escribir "Tiene una solución real (doble)"
+      SiNo
+        Escribir "No tiene soluciones reales"
+      FinSi
+    FinSi
+  FinSi
+FinAlgoritmo
