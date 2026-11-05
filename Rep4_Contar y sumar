@@ -1,0 +1,21 @@
+Algoritmo Contar y Sumar()
+//Declaraciones
+  Definir n, i, contador, suma Como Entero
+
+  // Cuerpo
+  Escribir "Ingrese el valor de N:"
+  Leer n
+
+  contador <- 0
+  suma <- 0
+
+  Para i <- 1 Hasta n Con Paso 1 Hacer
+    Si i MOD 3 = 0 O i MOD 5 = 0 Entonces
+      contador <- contador + 1
+      suma <- suma + i
+    FinSi
+  FinPara
+
+  Escribir "Cantidad de múltiplos de 3 o 5: ", contador
+  Escribir "Suma de los múltiplos: ", suma
+FinAlgoritmo
