@@ -1,0 +1,19 @@
+Algoritmos Solucion de ahorros()
+//Declaraciones
+  Definir n, mes Como Entero
+  Definir aporte, saldo Como Real
+
+  // Cuerpo
+  Escribir "Ingrese el número de meses:"
+  Leer n
+
+  saldo <- 0
+  Para mes <- 1 Hasta n Con Paso 1 Hacer
+    Escribir "Ingrese el aporte del mes ", mes, ":"
+    Leer aporte
+    saldo <- saldo + aporte
+    saldo <- saldo * 1.008
+  FinPara
+
+  Escribir "Saldo final después de ", n, " meses: $", saldo
+FinAlgoritmo
